@@ -2,34 +2,28 @@
 Overview
 This tool extracts annotations (highlights and notes) from a Kobo eReader's SQLite database and saves them into text files, formatted in MLA citation style.
 
-**Requirements**
-A Kobo eReader, mounted at /Volumes/KOBOeReader
-A Mac or Linux system with:
-gcc (for compiling)
-sqlite3 library installed
+**Requirements**  
+A Kobo eReader, mounted at /Volumes/KOBOeReader  
+A Mac or Linux system with:  
+gcc (for compiling)  
+sqlite3 library installed  
 
-**Installation & Setup**
-1️⃣ Clone or Download the Project
-Open Terminal and navigate to your desired directory:
+**Installation & Setup**  
+1️⃣ Clone or Download the Project  
+Open Terminal and navigate to your desired directory:  
 
-sh
-Copy
-Edit
-cd ~/Desktop
-git clone https://github.com/your-repo/kobo_features.git
-cd kobo_features
-(If you don’t have git, just download the files manually.)
+cd ~/Desktop  
+git clone https://github.com/your-repo/kobo_features.git  
+cd kobo_features  
+(If you don’t have git, just download the files manually.)  
 
-2️⃣ Ensure Your Kobo is Mounted
-Before running the program, confirm your Kobo is properly connected. Run:
+2️⃣ Ensure Your Kobo is Mounted  
+Before running the program, confirm your Kobo is properly connected. Run:  
 
-sh
-Copy
-Edit
-ls /Volumes
-You should see KOBOeReader listed.
+ls /Volumes  
+You should see KOBOeReader listed.  
 
-3️⃣ Compile the Program
+3️⃣ Compile the Program  
 Run:
 
 sh
