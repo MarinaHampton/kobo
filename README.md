@@ -12,7 +12,7 @@ sqlite3 library installed
 1️⃣ Clone or Download the Project  
 Open Terminal and navigate to your desired directory:  
 
-cd ~/Desktop  
+```sh cd ~/Desktop  
 git clone https://github.com/your-repo/kobo_features.git  
 cd kobo_features  
 (If you don’t have git, just download the files manually.)  
@@ -26,9 +26,6 @@ You should see KOBOeReader listed.
 3️⃣ Compile the Program  
 Run:
 
-sh
-Copy
-Edit
 gcc -o export_MLA export_MLA.c -lsqlite3
 This creates the export_MLA executable.
 
