@@ -1,6 +1,6 @@
-README: Kobo Annotation Exporter
+📄 Kobo Annotation Exporter
 Overview
-This tool extracts annotations (highlights and notes) from a Kobo eReader's SQLite database and saves them into text files, organized by book. Each annotation is formatted in MLA citation style.
+This tool extracts annotations (highlights and notes) from a Kobo eReader's SQLite database and saves them into text files, formatted in MLA citation style.
 
 Requirements
 A Kobo eReader, mounted at /Volumes/KOBOeReader
@@ -78,3 +78,9 @@ Edit
 ls -l /Volumes/KOBOeReader/.kobo/KoboReader.sqlite
 If missing, ensure your Kobo is properly connected.
 
+Future Improvements
+Export annotations as Markdown or JSON
+GUI version for easier use
+✅ Notes
+Make sure your Kobo is unlocked before connecting.
+All exported annotations are saved in exported_annotations/.
